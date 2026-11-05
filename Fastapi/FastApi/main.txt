@@ -1,0 +1,24 @@
+hoe to runs
+   in ternminall
+    
+      uvicorn main:app --reload 
+
+
+Data base 
+=================
+in mysql
+----------->
+     create database fastapi
+     use fastapi
+     
+    FastAPI Application
+                    
+                   database.py 
+                         |
+                   Database configuration
+                         |
+                   SQLAlchemy Engine
+                         |
+                   Creates database connection
+                          |
+                   MySQL Database
